@@ -11,4 +11,14 @@
     <string name="register">Register</string>
     <string name="welcome_text">Millions of Songs Free on Spotify</string>
     <string name="support_register">If you need any support click here</string>
+    <string name="good_morning">Good Morning!</string>
+    <string name="recently_played">Recently played</string>
+    <string name="liked_songs">Liked Songs 💛</string>
+    <string name="podcast">Podcast 🎤 🤍</string>
+    <string name="dance_music">Dance Music 💃</string>
+    <string name="radio">Radio 📻</string>
+    <string name="tym">❤</string>
+    <string name="tym2">💙</string>
+    <string name="top_songs">Top Songs</string>
+    <string name="top_artists">Top Artists</string>
 </resources>
