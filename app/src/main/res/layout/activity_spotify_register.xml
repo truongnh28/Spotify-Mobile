@@ -21,7 +21,7 @@
         android:textSize="30sp"
         android:gravity="center"
         android:textStyle="bold"
-        android:text="@string/sign_in"
+        android:text="@string/register"
         android:textColor="#ffffff"/>
 
 
@@ -57,13 +57,25 @@
             android:text="@string/password"
             tools:ignore="RtlSymmetry" />
 
+        <EditText
+            android:id="@+id/edit_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_rect"
+            android:backgroundTint="#ffffff"
+            android:textStyle="italic"
+            android:textColor="@color/colorGrayLight"
+            android:paddingStart="@dimen/edit_text_padding_left"
+            android:text="@string/confirm_password"
+            tools:ignore="RtlSymmetry" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginTop="110dp"
+            android:layout_marginTop="50dp"
             android:background="@drawable/create_account_button"
-            android:text="@string/sign_in"
+            android:text="@string/create_account"
             android:textColor="#000000"
             android:textStyle="bold"/>
 
