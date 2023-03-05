@@ -15,3 +15,13 @@ https://m2.material.io/components/bottom-navigation/android#bottom-navigation-ba
 https://developer.android.com/guide/navigation/navigation-design-graph
 
 https://hiepsiit.com/detail/android/laptrinhandroid/intent
+
+https://www.iostream.vn/android/thao-tac-voi-network-trong-android-su-dung-thu-vien-volley-H1iefa
+
+https://devtut.github.io/android/httpurlconnection.html#creating-an-httpurlconnection
+
+https://documenter.getpostman.com/view/21317205/2s8YzUvgT2#2e7d3013-8d39-4f02-815b-73faf2e729ef
+
+https://github.com/cozej4/Android-Smart-Login
+
+https://github.com/akrajilwar/Android-Login-And-Registration
