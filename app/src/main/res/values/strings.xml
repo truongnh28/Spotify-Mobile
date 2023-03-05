@@ -1,10 +1,9 @@
 <resources>
-    <string name="app_name">spotify-demo</string>
-
+    <string name="app_name">Spotify fake</string>
     <string name="create_account">Create account</string>
     <string name="already_user">Already a user?</string>
     <string name="sign_in">Sign in</string>
-    <string name="user_name">User name or Email</string>
+    <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="confirm_password">Confirm password</string>
     <string name="welcome">Welcome</string>
@@ -21,4 +20,7 @@
     <string name="tym2">💙</string>
     <string name="top_songs">Top Songs</string>
     <string name="top_artists">Top Artists</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_password_not_match">Password not match</string>
+    <string name="error_email_wrong_format">Email wrong format</string>
 </resources>

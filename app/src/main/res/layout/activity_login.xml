@@ -33,19 +33,21 @@
         android:orientation="vertical">
 
         <EditText
-            android:id="@+id/edit_text_mail"
+            android:id="@+id/edit_login_username"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="25dp"
+            android:maxLines="1"
+            android:lines="1"
             android:background="@drawable/round_rect"
             android:backgroundTint="#ffffff"
             android:textStyle="italic"
             android:textColor="@color/colorGrayLight"
             android:paddingStart="@dimen/edit_text_padding_left"
-            android:text="@string/user_name"/>
+            android:hint="@string/email"/>
 
         <EditText
-            android:id="@+id/edit_password"
+            android:id="@+id/edit_login_password"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="25dp"
@@ -54,11 +56,13 @@
             android:textStyle="italic"
             android:textColor="@color/colorGrayLight"
             android:paddingStart="@dimen/edit_text_padding_left"
-            android:text="@string/password"
+            android:hint="@string/password"
+            android:inputType="textPassword"
             tools:ignore="RtlSymmetry" />
 
 
         <Button
+            android:id="@+id/btn_login_sign_in"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="110dp"
