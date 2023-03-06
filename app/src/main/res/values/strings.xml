@@ -23,4 +23,6 @@
     <string name="error_field_required">This field is required</string>
     <string name="error_password_not_match">Password not match</string>
     <string name="error_email_wrong_format">Email wrong format</string>
+    <string name="setting_follow">1 people</string>
+    <string name="setting_username">Nguyễn Hữu Trưởng</string>
 </resources>

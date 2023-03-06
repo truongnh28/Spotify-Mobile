@@ -8,14 +8,24 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import ptithcm.spotify.R;
+import ptithcm.spotify.helper.SessionManager;
 
 public class WelcomeActivity extends AppCompatActivity {
     Button btnCreateAccount;
     Button btnSignIn;
+    SessionManager session;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+
+        session = new SessionManager(this);
+
+        if(session.isLoggedIn()) {
+            Intent intent = new Intent(WelcomeActivity.this, HomeActivity.class);
+            startActivity(intent);
+            finish();
+        }
 
         btnCreateAccount = findViewById(R.id.btn_welcome_create_account);
         btnSignIn = findViewById(R.id.btn_welcome_sign_in);

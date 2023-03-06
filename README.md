@@ -25,3 +25,5 @@ https://documenter.getpostman.com/view/21317205/2s8YzUvgT2#2e7d3013-8d39-4f02-81
 https://github.com/cozej4/Android-Smart-Login
 
 https://github.com/akrajilwar/Android-Login-And-Registration
+
+https://github.com/baokiinkk/MyMusic/tree/master/app/src/main/res/layout
